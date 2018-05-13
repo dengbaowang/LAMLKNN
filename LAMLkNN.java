@@ -1,4 +1,5 @@
 /*    This program is implenment as a extension of Mulan package, which can be download in Mulan website.
+ *    This implement is based on ML-kNN algorithm
  *    This program is free software; you can redistribute it and/or modify
  *    it under the terms of the GNU General Public License as published by
  *    the Free Software Foundation; either version 2 of the License, or
@@ -37,35 +38,10 @@ import weka.clusterers.SimpleKMeans;
 
 /**
  <!-- globalinfo-start -->
- * Class implementing the ML-kNN (Multi-Label k Nearest Neighbours) algorithm.<br>
+ * Class implementing the LAML-kNN (Multi-Label k Nearest Neighbours) algorithm.<br>
  * <br>
  * For more information, see<br>
- * <br>
- * Min-Ling Zhang, Zhi-Hua Zhou (2007). ML-KNN: A lazy learning approach to multi-label learning. Pattern Recogn.. 40(7):2038--2048.
- * <br>
- <!-- globalinfo-end -->
- *
- <!-- technical-bibtex-start -->
- * BibTeX:
- * <pre>
- * &#64;article{Zhang2007,
- *    address = {New York, NY, USA},
- *    author = {Min-Ling Zhang and Zhi-Hua Zhou},
- *    journal = {Pattern Recogn.},
- *    number = {7},
- *    pages = {2038--2048},
- *    publisher = {Elsevier Science Inc.},
- *    title = {ML-KNN: A lazy learning approach to multi-label learning},
- *    volume = {40},
- *    year = {2007},
- *    ISSN = {0031-3203}
- * }
- * </pre>
- * <br>
- <!-- technical-bibtex-end -->
- *
- * @author Eleftherios Spyromitros-Xioufis
- * @version 2012.07.16
+ * 
  */
 @SuppressWarnings("serial")
 public class LAMLkNN extends MultiLabelKNN {
